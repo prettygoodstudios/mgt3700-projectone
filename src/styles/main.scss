@@ -1,6 +1,7 @@
 @import "variables";
 @import "header";
 @import "section";
+@import "experimentone";
 
 html, body { 
     padding: 0;
@@ -15,3 +16,18 @@ html, body {
     flex-direction: column;
 }
 
+
+.btn-default {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    background-color: $background;
+    color: $text-color;
+    font-size: 1.2em;
+
+    &:hover {
+        cursor: pointer;
+    }
+}

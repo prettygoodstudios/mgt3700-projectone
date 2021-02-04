@@ -1,2 +1,9 @@
 $background:  #363535;;
 $text-color: #ececec;
+
+@mixin bubble {
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 20px;
+}
