@@ -6,7 +6,6 @@ const Header = ({}) => {
 
     useEffect(() => {
         const callBack = () => {
-            console.log("hello")
             setVisible(!visible);
         }
         const interval = setInterval(callBack, 1000);

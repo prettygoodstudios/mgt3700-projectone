@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import ExperimentOne from "./ExperimentOne.jsx";
+import ExperimentTwo from "./ExperimentTwo.jsx";
 import Header from "./Header.jsx";
 import Intro from "./Intro.jsx";
 import Learning from "./Learning.jsx";
@@ -14,6 +15,7 @@ class App extends Component {
                 <Process/>
                 <ExperimentOne/>
                 <Learning/>
+                <ExperimentTwo/>
             </div>
         );
     }

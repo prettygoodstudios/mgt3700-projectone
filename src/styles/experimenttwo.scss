@@ -1,0 +1,55 @@
+.experiment-two {
+    &__options {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        @media only screen and (max-width: 600px) {
+            flex-direction: column;
+            align-items: center;
+            .experiment-two__options__option {
+                width: 80vw;
+                margin: 20px 0px;
+            }
+        }
+
+        &__option {
+            width: 40vw;
+            height: 50vh;
+            background-color: $background;
+            color: $text-color;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            border-radius: 20px;
+            font-size: 1.2em;
+
+            
+
+            &__answer {
+                display: none;
+            }
+
+            a {
+                display: block;
+                text-decoration: none;
+                margin: auto;
+                text-align: center;
+            }
+
+            &:hover {
+                background-color: white;
+                color: black;
+                .experiment-two__options__option__answer {
+                    display: block;
+                }
+                .experiment-two__options__option__visible {
+                    display: none;
+                }
+            }
+        }
+
+        
+    }
+}
