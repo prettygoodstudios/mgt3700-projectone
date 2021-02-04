@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import Header from "./Header.jsx";
 import Intro from "./Intro.jsx";
-
+import Process from "./Process.jsx";
 
 class App extends Component {
     render() {
@@ -9,6 +9,7 @@ class App extends Component {
             <div className="wrapper">
                 <Header/>
                 <Intro/>
+                <Process/>
             </div>
         );
     }

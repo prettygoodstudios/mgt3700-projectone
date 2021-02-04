@@ -25,6 +25,7 @@
             height: 50px;
             width: 50px;
             margin: auto;
+            opacity: 0;
             span {
                 position: absolute;
                 background-color: $text-color;
@@ -40,6 +41,11 @@
             span:nth-child(2) {
                 transform: translate(-100%, -15px) rotate(45deg);
             }
+        }
+
+        .visible {
+            opacity: 1;
+            transition: opacity 0.5s ease;
         }
     }
 }
