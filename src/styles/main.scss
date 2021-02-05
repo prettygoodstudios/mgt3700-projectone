@@ -11,6 +11,7 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
     color: $background;
     background-color: $text-color;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -44,8 +45,21 @@ html, body {
     color: $text-color;
     padding: 0px 20px;
 
+    span {
+        text-align: center;
+    }
+
     a {
         text-decoration: none;
-        color: $text-color
+        color: $text-color;
+        text-align: center;
+    }
+
+    @media only screen and(max-width: 600px){
+        height: auto;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
     }
 }

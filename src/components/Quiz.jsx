@@ -30,7 +30,7 @@ export default class Quiz extends Component {
                     error: null
                 },
                 {
-                    prompt: "WIP can be described as.",
+                    prompt: "WIP can be described as",
                     answers: [
                         "The amount of inventory in a production system.",
                         "The amount of time it takes to produce a unit.",
@@ -44,7 +44,7 @@ export default class Quiz extends Component {
                     prompt: "What is Six Sigma?",
                     answers: [
                         "A optimization algorithim.",
-                        "A set of key statistic regaring a production system.",
+                        "A set of key statistics that describe a production system.",
                         "A quality assurance system."
                     ],
                     solution: 2,
@@ -122,7 +122,7 @@ export default class Quiz extends Component {
             {
                 error && 
                 <div className="quiz__error">
-                    You still have a bit more to learn. Perhaps try again.
+                    You still have a bit more to learn.
                 </div>
             }
         </div>
