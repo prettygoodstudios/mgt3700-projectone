@@ -7,6 +7,7 @@ import Intro from "./Intro.jsx";
 import Learning from "./Learning.jsx";
 import Methods from "./Methods.jsx";
 import Process from "./Process.jsx";
+import Quiz from "./Quiz.jsx";
 
 class App extends Component {
     render() {
@@ -20,6 +21,7 @@ class App extends Component {
                 <ExperimentTwo/>
                 <Methods/>
                 <Connections/>
+                <Quiz/>
             </div>
         );
     }

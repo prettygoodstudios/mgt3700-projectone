@@ -1,0 +1,15 @@
+.quiz {
+    &__success {
+        @include bubble;
+        background-color: green;
+        color: $text-color;
+        margin: 20px 0px;
+    }
+
+    &__error {
+        @include bubble;
+        background-color: #ff0000;
+        color: $text-color;
+        margin: 20px 0px;
+    }
+}
