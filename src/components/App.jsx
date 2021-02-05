@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import Connections from "./Connections.jsx";
 import ExperimentOne from "./ExperimentOne.jsx";
 import ExperimentTwo from "./ExperimentTwo.jsx";
+import Footer from "./Footer.jsx";
 import Header from "./Header.jsx";
 import Intro from "./Intro.jsx";
 import Learning from "./Learning.jsx";
@@ -22,6 +23,7 @@ class App extends Component {
                 <Methods/>
                 <Connections/>
                 <Quiz/>
+                <Footer/>
             </div>
         );
     }
